@@ -1,0 +1,76 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Lexend Deca', sans-serif;
+  background-color:hsl(0, 0%, 95%);
+  display: flex;
+  flex-direction: column;
+}
+a {
+  text-decoration: none;
+}
+.box {
+  display: flex;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+@media (max-width:767px) {
+  .box {
+    flex-direction: column;
+  }
+}
+section {
+  padding: 30px;
+}
+.one {
+  background-color:  hsl(31, 77%, 52%);
+  width: 350px;
+}
+.two {
+  background-color:  hsl(184, 100%, 22%);
+  width: 350px;
+}
+.three {
+  background-color:  hsl(179, 100%, 13%);
+  width: 350px;
+}
+header h2 {
+  color: hsl(0, 0%, 95%);
+  letter-spacing: -2px;
+  font-size: 40px;
+}
+.info p {
+  font-size: 15px;
+  color: hsla(0, 0%, 100%, 0.75);
+  line-height: 1.7;
+  margin-bottom: 80px;
+}
+a {
+  display: block;
+  width: fit-content;
+  padding: 10px 20px;
+  background-color: hsl(0, 0%, 95%);
+  border-radius: 30px;
+  border: 2px solid hsl(0, 0%, 95%);
+  transition: all .3s;
+}
+.first {
+  font-size: 15px;
+  color:hsl(31, 77%, 52%) ;
+}
+.seconde {
+  color: hsl(184, 100%, 22%);
+}
+.third {
+  color: hsl(179, 100%, 13%);
+}
+.button:hover a {
+  color: hsl(0, 0%, 95%);
+  background-color: inherit;
+}
